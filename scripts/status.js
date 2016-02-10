@@ -2,7 +2,7 @@
 //   status
 
 module.exports = (bot) => {
-  bot.respond(/^(status|ping)$/, (res) => {
+  bot.respond(/status/, (res) => {
     res.reply('All systems operational.')
   })
 }
