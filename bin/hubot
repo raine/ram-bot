@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ -z "$HUBOT_GITTER2_TOKEN" ]; then
+  echo 'ERROR: HUBOT_GITTER2_TOKEN not set'
+  exit 1
+fi
+
+export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
+exec node_modules/.bin/hubot --name "ram-bot" "$@"

@@ -1,0 +1,28 @@
+rules:
+  indent:
+    - 2
+    - 2
+  quotes:
+    - 2
+    - single
+  linebreak-style:
+    - 2
+    - unix
+  semi:
+    - 2
+    - never
+  no-console:
+    - 0
+  no-unused-vars:
+    - 2
+    - argsIgnorePattern: '^_'
+      varsIgnorePattern: '_'
+globals:
+  dedent: false
+env:
+  es6: true
+  node: true
+  mocha: true
+extends: 'eslint:recommended'
+parser: 'babel-eslint'
+
