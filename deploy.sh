@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-rsync -avzr \
+rsync -avzr --delete \
   --exclude 'deploy.sh' \
   --exclude '.git' \
   --exclude 'node_modules' \
