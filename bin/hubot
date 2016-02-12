@@ -2,7 +2,7 @@
 
 set -e
 
-if [ -z "$HUBOT_GITTER2_TOKEN" ]; then
+if [[ "$@" == *"-a gitter2"* ]] && [[ -z "$HUBOT_GITTER2_TOKEN" ]]; then
   echo 'ERROR: HUBOT_GITTER2_TOKEN not set'
   exit 1
 fi
