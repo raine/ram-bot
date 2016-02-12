@@ -2,6 +2,7 @@
 //   Support scripts written in ES6
 
 require('babel-register')({
-  ignore: false // enable babel for node_modules/hubot-ramda-docs
+  // TODO: compile hubot-ramda-docs and hubot-eval-js to ES5
+  only: /((hubot-ramda-docs|hubot-eval-js)\/src)|\/scripts/
 })
 module.exports = () => {}
