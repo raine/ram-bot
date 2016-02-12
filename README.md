@@ -5,4 +5,4 @@ Half animal, half machine.
 ## scripts
 
 - [hubot-ramda-docs](https://github.com/raine/hubot-ramda-docs)
-- [hubot-eval](https://github.com/raine/hubot-eval)
+- [hubot-eval-js](https://github.com/raine/hubot-eval-js)
