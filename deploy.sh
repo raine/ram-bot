@@ -6,4 +6,4 @@ rsync -avzr --delete \
   --exclude 'node_modules' \
   . ec2:ram-bot/
 
-ssh -t ec2 'cd ram-bot; npm install; pm2 startOrRestart app.json'
+ssh -t ec2 'cd ram-bot; npm install && npm update && pm2 startOrRestart app.json'
