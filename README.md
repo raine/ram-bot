@@ -1,5 +1,7 @@
 # ram-bot
 
+<img src="https://avatars2.githubusercontent.com/u/15848234?v=3&s=75" />
+
 Half animal, half machine.
 
 ## scripts
