@@ -1,7 +1,7 @@
 // Description:
 //   upgrade guides
 
-const { mdLink } = require('hubot-ramda-docs/src/markdown')
+const { mdLink } = require('hubot-ramda-docs/lib/markdown')
 const UPGRADE_GUIDES_ISSUES_URL = 'https://github.com/ramda/ramda/issues?q=is%3Aissue+label%3A%22upgrade+guide%22'
 
 module.exports = (bot) =>
