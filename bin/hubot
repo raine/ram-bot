@@ -8,6 +8,7 @@ if [[ "$@" == *"-a gitter2"* ]] && [[ -z "$HUBOT_GITTER2_TOKEN" ]]; then
 fi
 
 HUBOT_NAME="${HUBOT_NAME:-ram-bot}"
+export FILE_BRAIN_PATH="${FILE_BRAIN_PATH:-$(pwd)}"
 
 export PATH="node_modules/.bin:node_modules/hubot/node_modules/.bin:$PATH"
 exec node_modules/.bin/hubot --name "$HUBOT_NAME" "$@"
