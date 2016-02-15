@@ -1,4 +1,5 @@
 [
     "hubot-ramda-docs",
-    "hubot-eval-js"
+    "hubot-eval-js",
+    "hubot-factoids"
 ]
