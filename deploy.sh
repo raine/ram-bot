@@ -3,6 +3,8 @@
 rsync -avzr \
   --exclude 'deploy.sh' \
   --exclude '.git' \
+  --exclude '.hubot-history' \
+  --exclude 'brain-dump.json' \
   --include 'node_modules/hubot-factoids' \
   --exclude 'node_modules/*' \
   . ec2:ram-bot/
