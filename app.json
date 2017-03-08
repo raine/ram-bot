@@ -1,9 +1,0 @@
-{
-  "apps" : [{
-    "name": "ram-bot",
-    "script": "./bin/hubot",
-    "args": ["-a", "gitter2"],
-    "exec_interpreter": "bash",
-    "cwd": "/home/ec2-user/ram-bot"
-  }]
-}
