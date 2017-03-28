@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "hubot": "^2.16.0",
-    "hubot-eval-js": "^2.0.0",
+    "hubot-eval-js": "^3.0.0",
     "hubot-gitter2": "github:raine/hubot-gitter2#get-all-users-for-room",
     "hubot-ramda-docs": "^1.0.1"
   }
